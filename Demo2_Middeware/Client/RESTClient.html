@@ -1,0 +1,24 @@
+<html>
+
+<script>
+
+async function getPersons()
+{
+    //Send a HTTP request to the REST API
+   let resp =  await fetch("http://localhost:3000/person");
+
+   //Gets the data from the response
+   let data =  await resp.json();
+
+   console.table(data);
+
+}
+
+</script>
+    <body>
+        
+
+        <input type="button" value="Get All Persons" onclick="getPersons()">
+
+    </body>
+</html>
