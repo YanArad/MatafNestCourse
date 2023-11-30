@@ -27,7 +27,7 @@
     "axios": "^0.21.1",
     "jsonfile": "^6.1.0",
     "reflect-metadata": "^0.1.13",
-    "rimraf": "^3.0.2",
+    "rimraf": "^4.0.0",
     "rxjs": "^6.6.3"
   },
   "devDependencies": {
